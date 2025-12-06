@@ -1,0 +1,42 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #54adad;
+  --ifm-color-primary-dark: #b8f1e5;
+  --ifm-color-primary-darker: #63c29e;
+  --ifm-color-primary-darkest: #73f5ad;
+  --ifm-color-primary-light: #68eea0;
+  --ifm-color-primary-lighter: #a1f7be;
+  --ifm-color-primary-lightest: #7af1e1;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #a2e7d8;
+  --ifm-color-primary-dark: #94eeda;
+  --ifm-color-primary-darker: #47d6db;
+  --ifm-color-primary-darkest: #76da97;
+  --ifm-color-primary-light: #52f099;
+  --ifm-color-primary-lighter: #59e493;
+  --ifm-color-primary-lightest: #38e2e2;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Custom styles for the book title on the homepage */
+.hero__title {
+  font-size: 4rem; /* Make the title larger */
+  font-weight: bold;
+  /* Potentially add a different color if needed, but primary color should be fine */
+}
+
+/* Adjust subtitle/tagline size if needed */
+.hero__subtitle {
+  font-size: 1.5rem;
+}
