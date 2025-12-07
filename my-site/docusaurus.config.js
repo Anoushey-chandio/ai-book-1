@@ -11,7 +11,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://ai-book-1.vercel.app/',
+  url: 'https://ai-book-1.vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   baseUrl: '/', // Base URL in your GitHub Pages URL
 
