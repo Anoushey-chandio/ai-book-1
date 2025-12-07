@@ -1,12 +1,8 @@
 // @ts-check
 // `@type` JSDoc annotations allow editor autocompletion and type checking
 // (when paired with `@ts-check`).
-// There are various equivalent ways to declare your Docusaurus config.
-// See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
-
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -15,21 +11,16 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://physical-ai-robotics.github.io',
+  url: 'https://Anoushey-chandio.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/physical-ai-book/', // Base URL should match the project name for GitHub Pages
+  baseUrl: '/ai-book-1/', // Base URL in your GitHub Pages URL
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'physical-ai-robotics', // This will be the GitHub organization
-  projectName: 'physical-ai-book', // This will be the GitHub repository name
+  // GitHub pages deployment config
+  organizationName: 'Anoushey-chandio', // GitHub username
+  projectName: 'ai-book-1',             // Repository name
 
   onBrokenLinks: 'throw',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -42,10 +33,8 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/physical-ai-robotics/physical-ai-book/tree/main/',
+            'https://github.com/Anoushey-chandio/ai-book-1/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -53,11 +42,8 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/physical-ai-robotics/physical-ai-book/tree/main/',
-          // Useful options to enforce blogging best practices
+            'https://github.com/Anoushey-chandio/ai-book-1/tree/main/',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -72,7 +58,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       colorMode: {
         respectPrefersColorScheme: true,
@@ -81,23 +66,19 @@ const config = {
         title: 'Physical AI & Humanoid Robotics',
         logo: {
           alt: 'Book Logo',
-          src: 'img/logo.svg', // Assuming 'img/logo.svg' will be a relevant logo
+          src: 'img/logo.svg',
         },
         items: [
-          {
-            label: 'Home',
-            to: '/',
-            position: 'left',
-          },
+          {label: 'Home', to: '/', position: 'left'},
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar', // This refers to the main docs sidebar
+            sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Modules',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/physical-ai-robotics/physical-ai-book', // Placeholder GitHub repo
+            href: 'https://github.com/Anoushey-chandio/ai-book-1',
             label: 'GitHub',
             position: 'right',
           },
@@ -109,14 +90,8 @@ const config = {
           {
             title: 'Content',
             items: [
-              {
-                label: 'Modules Overview',
-                to: '/docs/intro',
-              },
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
+              {label: 'Modules Overview', to: '/docs/intro'},
+              {label: 'Blog', to: '/blog'},
             ],
           },
           {
@@ -124,9 +99,8 @@ const config = {
             items: [
               {
                 label: 'GitHub Discussions',
-                href: 'https://github.com/physical-ai-robotics/physical-ai-book/discussions', // Placeholder
+                href: 'https://github.com/Anoushey-chandio/ai-book-1/discussions',
               },
-              // Add other community links as desired
             ],
           },
           {
@@ -134,7 +108,7 @@ const config = {
             items: [
               {
                 label: 'GitHub Repository',
-                href: 'https://github.com/physical-ai-robotics/physical-ai-book', // Placeholder
+                href: 'https://github.com/Anoushey-chandio/ai-book-1',
               },
             ],
           },
