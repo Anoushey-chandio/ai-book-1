@@ -11,9 +11,9 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://Anoushey-chandio.github.io',
+  url: 'https://ai-book-1.vercel.app/',
   // Set the /<baseUrl>/ pathname under which your site is served
-  baseUrl: '/ai-book-1/', // Base URL in your GitHub Pages URL
+  baseUrl: '/', // Base URL in your GitHub Pages URL
 
   // GitHub pages deployment config
   organizationName: 'Anoushey-chandio', // GitHub username
