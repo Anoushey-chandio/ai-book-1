@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Physical AI &amp; Humanoid Robotics Blog</title>
-        <link>https://Anoushey-chandio.github.io/physical-ai-book/blog</link>
+        <link>https://Anoushey-chandio.github.io/ai-book-1/blog</link>
         <description>Physical AI &amp; Humanoid Robotics Blog</description>
         <lastBuildDate>Sat, 06 Dec 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,38 +10,38 @@
         <language>en</language>
         <item>
             <title><![CDATA[A Review of ROS 2 Humble Hawksbill]]></title>
-            <link>https://Anoushey-chandio.github.io/physical-ai-book/blog/ros2-humble-review</link>
-            <guid>https://Anoushey-chandio.github.io/physical-ai-book/blog/ros2-humble-review</guid>
+            <link>https://Anoushey-chandio.github.io/ai-book-1/blog/ros2-humble-review</link>
+            <guid>https://Anoushey-chandio.github.io/ai-book-1/blog/ros2-humble-review</guid>
             <pubDate>Sat, 06 Dec 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[ROS 2 Humble Hawksbill marks a significant milestone in the evolution of the Robot Operating System. Released in May 2022, Humble is a Long Term Support (LTS) release, meaning it will receive updates and support for five years, making it a stable and reliable choice for long-term robotics projects. As such, it has become a cornerstone for many physical AI and humanoid robotics applications.]]></description>
             <content:encoded><![CDATA[<p><strong>ROS 2 Humble Hawksbill</strong> marks a significant milestone in the evolution of the Robot Operating System. Released in May 2022, Humble is a Long Term Support (LTS) release, meaning it will receive updates and support for five years, making it a stable and reliable choice for long-term robotics projects. As such, it has become a cornerstone for many physical AI and humanoid robotics applications.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="key-highlights-of-humble">Key Highlights of Humble<a href="https://anoushey-chandio.github.io/physical-ai-book/blog/ros2-humble-review#key-highlights-of-humble" class="hash-link" aria-label="Direct link to Key Highlights of Humble" title="Direct link to Key Highlights of Humble" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-enhanced-stability-and-maturity">1. Enhanced Stability and Maturity<a href="https://anoushey-chandio.github.io/physical-ai-book/blog/ros2-humble-review#1-enhanced-stability-and-maturity" class="hash-link" aria-label="Direct link to 1. Enhanced Stability and Maturity" title="Direct link to 1. Enhanced Stability and Maturity" translate="no">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="key-highlights-of-humble">Key Highlights of Humble<a href="https://anoushey-chandio.github.io/ai-book-1/blog/ros2-humble-review#key-highlights-of-humble" class="hash-link" aria-label="Direct link to Key Highlights of Humble" title="Direct link to Key Highlights of Humble" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-enhanced-stability-and-maturity">1. Enhanced Stability and Maturity<a href="https://anoushey-chandio.github.io/ai-book-1/blog/ros2-humble-review#1-enhanced-stability-and-maturity" class="hash-link" aria-label="Direct link to 1. Enhanced Stability and Maturity" title="Direct link to 1. Enhanced Stability and Maturity" translate="no">​</a></h3>
 <p>Building on the successes of Foxy and Galactic, Humble brought a new level of stability. Many core packages matured, and bug fixes significantly improved the overall robustness of the system. This reliability is crucial for complex humanoid robots where stability directly impacts safety and performance.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-improved-performance">2. Improved Performance<a href="https://anoushey-chandio.github.io/physical-ai-book/blog/ros2-humble-review#2-improved-performance" class="hash-link" aria-label="Direct link to 2. Improved Performance" title="Direct link to 2. Improved Performance" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-improved-performance">2. Improved Performance<a href="https://anoushey-chandio.github.io/ai-book-1/blog/ros2-humble-review#2-improved-performance" class="hash-link" aria-label="Direct link to 2. Improved Performance" title="Direct link to 2. Improved Performance" translate="no">​</a></h3>
 <p>Humble delivered notable performance improvements across various aspects:</p>
 <ul>
 <li class=""><strong>DDS Integration</strong>: Optimized interaction with underlying DDS (Data Distribution Service) implementations, leading to lower latency and higher throughput for communication.</li>
 <li class=""><strong>rclpy/rclcpp</strong>: Performance enhancements in both the Python and C++ client libraries, making them more efficient for demanding applications.</li>
 <li class=""><strong>Launch System</strong>: Faster and more robust launch files, essential for orchestrating complex robot startups.</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-navigation2-stack-advancements">3. Navigation2 Stack Advancements<a href="https://anoushey-chandio.github.io/physical-ai-book/blog/ros2-humble-review#3-navigation2-stack-advancements" class="hash-link" aria-label="Direct link to 3. Navigation2 Stack Advancements" title="Direct link to 3. Navigation2 Stack Advancements" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-navigation2-stack-advancements">3. Navigation2 Stack Advancements<a href="https://anoushey-chandio.github.io/ai-book-1/blog/ros2-humble-review#3-navigation2-stack-advancements" class="hash-link" aria-label="Direct link to 3. Navigation2 Stack Advancements" title="Direct link to 3. Navigation2 Stack Advancements" translate="no">​</a></h3>
 <p>The <strong>Navigation2 (Nav2)</strong> stack saw continuous development in Humble. Key improvements included:</p>
 <ul>
 <li class="">More robust recovery behaviors.</li>
 <li class="">Enhanced planner and controller configurations.</li>
 <li class="">Improved performance and reliability for diverse mobile robot platforms, including humanoids.</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="4-better-tooling-and-ecosystem">4. Better Tooling and Ecosystem<a href="https://anoushey-chandio.github.io/physical-ai-book/blog/ros2-humble-review#4-better-tooling-and-ecosystem" class="hash-link" aria-label="Direct link to 4. Better Tooling and Ecosystem" title="Direct link to 4. Better Tooling and Ecosystem" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="4-better-tooling-and-ecosystem">4. Better Tooling and Ecosystem<a href="https://anoushey-chandio.github.io/ai-book-1/blog/ros2-humble-review#4-better-tooling-and-ecosystem" class="hash-link" aria-label="Direct link to 4. Better Tooling and Ecosystem" title="Direct link to 4. Better Tooling and Ecosystem" translate="no">​</a></h3>
 <p>The ROS 2 ecosystem around Humble became richer:</p>
 <ul>
 <li class=""><strong>RViz2</strong>: Continued improvements in visualization capabilities.</li>
 <li class=""><strong>ros2_control</strong>: The hardware abstraction layer for robot controllers, saw significant updates, making it easier to integrate various robot hardware, including humanoid joints.</li>
 <li class=""><strong>Documentation</strong>: Comprehensive and up-to-date documentation.</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="5-multi-robot-support">5. Multi-Robot Support<a href="https://anoushey-chandio.github.io/physical-ai-book/blog/ros2-humble-review#5-multi-robot-support" class="hash-link" aria-label="Direct link to 5. Multi-Robot Support" title="Direct link to 5. Multi-Robot Support" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="5-multi-robot-support">5. Multi-Robot Support<a href="https://anoushey-chandio.github.io/ai-book-1/blog/ros2-humble-review#5-multi-robot-support" class="hash-link" aria-label="Direct link to 5. Multi-Robot Support" title="Direct link to 5. Multi-Robot Support" translate="no">​</a></h3>
 <p>Humble strengthened ROS 2's capabilities for multi-robot systems. This is particularly relevant for swarm robotics or collaborative tasks involving humanoids. Features like namespace support and simplified discovery for large networks made this easier.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="impact-on-physical-ai-and-humanoid-robotics">Impact on Physical AI and Humanoid Robotics<a href="https://anoushey-chandio.github.io/physical-ai-book/blog/ros2-humble-review#impact-on-physical-ai-and-humanoid-robotics" class="hash-link" aria-label="Direct link to Impact on Physical AI and Humanoid Robotics" title="Direct link to Impact on Physical AI and Humanoid Robotics" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="impact-on-physical-ai-and-humanoid-robotics">Impact on Physical AI and Humanoid Robotics<a href="https://anoushey-chandio.github.io/ai-book-1/blog/ros2-humble-review#impact-on-physical-ai-and-humanoid-robotics" class="hash-link" aria-label="Direct link to Impact on Physical AI and Humanoid Robotics" title="Direct link to Impact on Physical AI and Humanoid Robotics" translate="no">​</a></h2>
 <p>For projects in physical AI and humanoid robotics, Humble's LTS status and feature set are highly beneficial:</p>
 <ul>
 <li class=""><strong>Reliable Foundation</strong>: Provides a stable base for long-term research and commercial products.</li>
@@ -49,9 +49,9 @@
 <li class=""><strong>Path Planning</strong>: Nav2 allows humanoids to navigate complex environments intelligently.</li>
 <li class=""><strong>Simulations</strong>: Better performance and tools enhance integration with simulators like Gazebo and Isaac Sim.</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="conclusion">Conclusion<a href="https://anoushey-chandio.github.io/physical-ai-book/blog/ros2-humble-review#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="conclusion">Conclusion<a href="https://anoushey-chandio.github.io/ai-book-1/blog/ros2-humble-review#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion" translate="no">​</a></h2>
 <p>ROS 2 Humble Hawksbill is a robust, performant, and mature platform for building the next generation of intelligent robots. Its focus on stability, performance, and a growing ecosystem makes it an excellent choice for any serious physical AI or humanoid robotics endeavor. While newer versions like Iron Irwini have since been released, Humble remains a solid and widely adopted LTS option.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="authors">Authors<a href="https://anoushey-chandio.github.io/physical-ai-book/blog/ros2-humble-review#authors" class="hash-link" aria-label="Direct link to Authors" title="Direct link to Authors" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="authors">Authors<a href="https://anoushey-chandio.github.io/ai-book-1/blog/ros2-humble-review#authors" class="hash-link" aria-label="Direct link to Authors" title="Direct link to Authors" translate="no">​</a></h2>
 <p><em>The Gemini Robotics Team</em></p>]]></content:encoded>
             <category>ROS2</category>
             <category>Humble</category>
