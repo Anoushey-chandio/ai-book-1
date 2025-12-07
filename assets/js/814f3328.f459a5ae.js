@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkmy_site=globalThis.webpackChunkmy_site||[]).push([[7472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"A Review of ROS 2 Humble Hawksbill","permalink":"/physical-ai-book/blog/ros2-humble-review","unlisted":false,"date":"2025-12-06T00:00:00.000Z"}]}')}}]);
